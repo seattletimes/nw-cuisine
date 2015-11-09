@@ -3,9 +3,14 @@
 
 .cuisine-player {
   .display-flex;
+  .align-items(center);
+
+  @media @mobile {
+    display: block;
+  }
 
   .video-container {
-    .flex(1 0 640px);
+    .flex(1 0 320px);
   }
 
   .playlist-container {
