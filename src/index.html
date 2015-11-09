@@ -9,9 +9,20 @@
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+    <main class="cuisine-player">
+      <div class="video-container aspect-outer">
+        <div class="aspect-inner">
+          <video
+            data-account="1509317113"
+            data-player="default"
+            data-embed="default"
+            id="player"
+            class="video-js" controls>
+          </video>
+        </div>
+      </div>
+      <div class="playlist-container"></div>
+    </main>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
