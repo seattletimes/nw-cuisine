@@ -24,6 +24,10 @@
       <div class="playlist-container"></div>
     </main>
 
+    <article class="markdown-text">
+      <%= markdown.article %>
+    </article>
+
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_foot.html") : "" %>
