@@ -29,7 +29,7 @@ ready(function(player) {
     playlist.forEach((v, i) => lookup[v.id] = v);
 
     playlistContainer.addEventListener("click", function(e) {
-      if (!playlistContainer.classList.contains("enabled")) return;
+      if (playlistContainer.getAttribute("data-enabled") == "false") return;
       var li = closest(e.target, "playlist-item");
       var id = li.getAttribute("data-id");
       var index = player.playlist.indexOf(lookup[id]);
