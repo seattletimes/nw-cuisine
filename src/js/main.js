@@ -8,7 +8,16 @@ var dot = require("./lib/dot");
 var playlistTemplate = dot.compile(require("./_playlist.html"));
 var playlistContainer = document.querySelector(".playlist-container");
 
-var ids = [4594952965001, 4558264932001, 4567072591001, 4556052811001, 4537656765001, 4518683229001];
+var ids = {
+  4594952965001: "Foraging with Jeremy Faber",
+  4558264932001: "Rachel Yang’s non-fusion fusion",
+  4567072591001: "Blaine Wetzel’s island pantry",
+  4556052811001: "Maria Hines mills grain",
+  4537656765001: "On the farm with Tom Douglas",
+  4518683229001: "Renee Erickson goes crabbing",
+  tba: "Matt Dillion pigs out"
+};
+
 var playlistID = 4539370305001;
 
 var log = console.log.bind(console);
@@ -22,6 +31,8 @@ ready(function(player) {
   window.player = player;
 
   player.catalog.getPlaylist(playlistID, function(err, playlist) {
+    console.log(playlist);
+    playlist.forEach(p => p.caption = ids[p.id]);
     playlistContainer.innerHTML = playlistTemplate(playlist);
     player.catalog.load(playlist);
 

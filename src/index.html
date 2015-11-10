@@ -11,11 +11,16 @@
 
     <%= t.include("partials/_nav.html") %>
 
-    <div class="ad-top">
-      <%= t.include("partials/_ad.html", { type: "banner" }) %>
-    </div>
+    <header class="splash">
+      <h1>
+        <img src="./assets/PNWCuisineHeader.jpg" class="hexes" alt="What is Northwest cuisine?">
+      </h1>
+      <p class="deck">
+        <b>What is Northwest cuisine?</b> This year, Seattle Times food columnist Bethany Jean Clement explored the backstory of the people and landscapes that define the way we eat now.
+      </p>
+    </header>
 
-    <h1>What is Northwest cuisine?</h1>
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
     <main class="cuisine-player">
       <div class="video-container aspect-outer">
@@ -29,6 +34,10 @@
           </video>
         </div>
       </div>
+      <p class="chatter">
+        Click the thumbnails below to view our complete series of video interviews with prominent Northwest chefs.
+      </p>
+      <hr>
       <div class="playlist-container"></div>
     </main>
 

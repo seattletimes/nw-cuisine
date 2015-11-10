@@ -1,24 +1,25 @@
 .cuisine-player {
-  .display-flex;
-  .align-items(center);
   max-width: 1200px;
   margin: 16px auto;
-  background: linear-gradient(to right, white, #EEE);
+  padding: 16px 0;
+  display: block;
 
   // border-top: 1px solid @df-light-gray;
   // border-bottom: 1px solid @df-light-gray;
-  padding: 16px 0;
 
-  @media @mobile {
-    display: block;
+  hr {
+    display: none;
+    width: 50%;
+    border-color: @df-dark-gray;
+    border-width: 2px;
+    border-style: solid;
+    margin: 24px auto;
   }
 
-  .video-container {
-    .flex(1 0 320px);
-  }
-
-  .playlist-container {
-    .flex(0 0 320px);
+  .chatter {
+    text-align: center;
+    font-family: @df-sans;
+    font-size: 16px;
   }
 }
 
@@ -46,17 +47,16 @@
   padding: 0;
   font-family: @df-sans;
   font-size: 15px;
+  text-align: center;
 
   li.playlist-item {
-    display: block;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 120px;
     padding: 8px;
     clear: both;
     overflow: hidden;
-    border-bottom: 1px solid #CCC;
-
-    &:last-child {
-      border-bottom: none;
-    }
+    font-size: 14px;
 
     [data-enabled="true"] & {
       cursor: pointer;
@@ -73,8 +73,12 @@
     }
 
     img {
-      float: left;
-      margin-right: 8px;
+      display: block;
+      margin: auto;
+    }
+
+    .caption {
+      display: block;
     }
   }
 

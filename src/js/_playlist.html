@@ -2,6 +2,6 @@
 <% data.forEach(function(item) { %>
   <li class="playlist-item" data-id="<%= item.id %>">
     <img src="<%= item.thumbnail %>">
-    <%= item.name %> 
+    <span class="caption"><%= item.caption %></span>
 <% }); %>
 </ul>
