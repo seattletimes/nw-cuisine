@@ -1,6 +1,6 @@
-// require("./lib/social");
-// require("./lib/ads");
-// var track = require("./lib/tracking");
+require("./lib/social");
+require("./lib/ads");
+var track = require("./lib/tracking");
 
 require("component-responsive-frame/child");
 var ready = require("./brightcove");

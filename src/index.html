@@ -9,6 +9,14 @@
   </head>
   <body>
 
+    <%= t.include("partials/_nav.html") %>
+
+    <div class="ad-top">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+    </div>
+
+    <h1>What is Northwest cuisine?</h1>
+
     <main class="cuisine-player">
       <div class="video-container aspect-outer">
         <div class="aspect-inner">
@@ -25,8 +33,21 @@
     </main>
 
     <article class="article-text">
+
+      <aside class="inset ad-float">
+        <%= t.include("partials/_ad.html", { type: "right" }) %>
+      </aside>
+
       <%= markdown.article %>
     </article>
+
+    <footer class="byline">
+
+      Bethany Jean Clement is The Seattle Times' food writer. Reach her at 206-464-2050 or <a href="mailto:bclement@seattletimes.com">bclement@seattletimes.com</a>. On Twitter <a href="http://twitter.com/bjeanclement">@BJeanClement</a>. John Lok is a Times staff photographer.
+
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>

@@ -1,6 +1,13 @@
 .cuisine-player {
   .display-flex;
   .align-items(center);
+  max-width: 1200px;
+  margin: 16px auto;
+  background: linear-gradient(to right, white, #EEE);
+
+  // border-top: 1px solid @df-light-gray;
+  // border-bottom: 1px solid @df-light-gray;
+  padding: 16px 0;
 
   @media @mobile {
     display: block;
@@ -46,6 +53,10 @@
     clear: both;
     overflow: hidden;
     border-bottom: 1px solid #CCC;
+
+    &:last-child {
+      border-bottom: none;
+    }
 
     [data-enabled="true"] & {
       cursor: pointer;
