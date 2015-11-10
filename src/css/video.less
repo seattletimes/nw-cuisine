@@ -7,6 +7,16 @@
   // border-top: 1px solid @df-light-gray;
   // border-bottom: 1px solid @df-light-gray;
 
+  h2 {
+    margin: 0;
+    font-size: 19px;
+    display: none;
+
+    @media @mobile {
+      display: block;
+    }
+  }
+
   hr {
     display: none;
     width: 50%;
@@ -57,6 +67,10 @@
     clear: both;
     overflow: hidden;
     font-size: 14px;
+
+    @media @mobile {
+      width: 50%;
+    }
 
     [data-enabled="true"] & {
       cursor: pointer;

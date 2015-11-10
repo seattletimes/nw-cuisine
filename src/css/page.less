@@ -20,13 +20,20 @@ header.splash {
     font-size: 24px;
     font-style: italic;
     background: rgba(255, 255, 255, .4);
+
+    @media @mobile {
+      position: relative;
+      bottom: auto;
+      padding: 8px;
+      margin-top: -80px;
+    }
   }
 }
 
 footer.byline {
   font-size: 16px;
   font-family: @df-sans;
-  max-width: 600px;
   margin: auto;
-  padding: 48px 0;
+  padding: 48px 100px;
+  background: @df-light-gray;
 }
