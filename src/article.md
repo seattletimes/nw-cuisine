@@ -1,3 +1,12 @@
+<aside class="inset related">
+  <p>
+    Read more about the chefs featured in this series:
+  </p>
+  <ul>
+    <%= t.include("_chef-sidebar.html") %>
+  </ul>
+</aside>
+
 *At his old chaser farm* on Vashon Island, Matt Dillon reaches over a wire fence to scratch one of his pigs on the head. "If I fell down in there, he'd eat me," Dillon says affectionately.
 
 Renee Erickson bangs her little Boston Whaler into the back of a sailboat while maneuvering out of her slip at Shilshole Bay Marina. She curses lightly. Two crab pots baited with sockeye salmon heads, the flesh brilliantly crimson, await her attention.
@@ -17,6 +26,12 @@ If you're a newcomer here and you love food, you've been startled by what our ch
 It's not just farm-to-table, forest-to-table or boat-to-table here. What you find in front of you at Seattle's best restaurants tastes so very, very good because it's life-to-life: from the lives of these chefs, and the lives of their hardworking suppliers, to yours. This is the cuisine of the Pacific Northwest: ineffable yet specific to this place, both influenced by and influencing those who are lured here by its plenty — or who've been fortunate enough to be here all along.
 
 ---
+
+
+
+<aside class="inset ad-float">
+  <%= t.include("partials/_ad.html", { type: "right" }) %>
+</aside>
 
 [*James Beard*](http://www.jamesbeard.org/), one of America's preeminent food writers, grew up in Portland. He left the Pacific Northwest behind, but he did look back — waxing nostalgic about gathering wild huckleberries, reminiscing about summers spent on the coast eating Dungeness crab ("the Pacific's greatest blessing") and razor clams ("superb ... cooked as simply as possible in order to savor their natural goodness").
 
@@ -49,6 +64,10 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of course, local; risotto is Italian in origin; in this case, the rice is cooked in the Japanese seaweed broth dashi. "It has this nice brininess of the sea," she says. "At the same time, you get this barely cooked, raw geoduck ... It's good. I love it."
 
 ---
+
+<aside class="inset ad-float">
+  <%= t.include("partials/_ad.html", { type: "square" }) %>
+</aside>
 
 *When it comes to organic food*, [Maria Hines](http://www.seattletimes.com/life/food-drink/for-chef-maria-hines-seattle-is-an-organic-choice/) is a pioneer in Pacific Northwest cuisine and a national standard-bearer. Almost a decade old, her Wallingford gem [Tilth](http://tilthrestaurant.com/home/) was only the second restaurant in the country to be certified organic. She won a James Beard award for it in 2009.
 
