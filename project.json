@@ -1,20 +1,20 @@
 {
   "s3": {
     "stage": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "proficient-ambrosia"
     },
     "live": {
       "bucket": "",
       "path": ""
     }
   },
-  "title": "",
-  "description": "",
+  "title": "What is Northwest cuisine?",
+  "description": "What is Northwest cuisine? Seattle Times food columnist Bethany Jean Clement explores the backstory of the people and landscapes that define the way we eat now.",
   "url": "",
   "slug": "",
   "tags": [],
   "image": "assets/social.jpg",
   "production": false,
-  "embedded": true
+  "embedded": false
 }

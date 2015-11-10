@@ -16,7 +16,7 @@ If you're a newcomer here and you love food, you've been startled by what our ch
 
 It's not just farm-to-table, forest-to-table or boat-to-table here. What you find in front of you at Seattle's best restaurants tastes so very, very good because it's life-to-life: from the lives of these chefs, and the lives of their hardworking suppliers, to yours. This is the cuisine of the Pacific Northwest: ineffable yet specific to this place, both influenced by and influencing those who are lured here by its plenty — or who've been fortunate enough to be here all along.
 
-<hr>
+---
 
 [*James Beard*](http://www.jamesbeard.org/), one of America's preeminent food writers, grew up in Portland. He left the Pacific Northwest behind, but he did look back — waxing nostalgic about gathering wild huckleberries, reminiscing about summers spent on the coast eating Dungeness crab ("the Pacific's greatest blessing") and razor clams ("superb ... cooked as simply as possible in order to savor their natural goodness").
 
@@ -38,7 +38,7 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 
 "It's way bigger than me, and way bigger than restaurants — it's about culture," he says. "You know, when we look and we romanticize about places like France and Italy and Japan, those ... have been eating that way for a long time. And the restaurants interpret that cuisine ... It's about people."
 
-<hr>
+---
 
 *The longtime asian influence* on Pacific Northwest cuisine, meanwhile, has been deepening and widening. Traunfeld's new restaurant, [Lionhead](http://www.lionheadseattle.com/), is Sichuanese. [Stateside](http://www.statesideseattle.com/), an upscale Vietnamese restaurant from chef Eric Johnson, began accruing accolades as soon as it opened in April. Eric and Sophie Banh, owners of longtime favorite [Monsoon](http://www.monsoonrestaurants.com/seattle/), just debuted a steakhouse, [Seven Beef](http://www.sevenbeef.com/). [Girin](http://www.girinseattle.com/), new in Pioneer Square, is another standout, billing itself as "a modern expression of classical Korean cuisine."
 
@@ -48,7 +48,7 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 
 But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of course, local; risotto is Italian in origin; in this case, the rice is cooked in the Japanese seaweed broth dashi. "It has this nice brininess of the sea," she says. "At the same time, you get this barely cooked, raw geoduck ... It's good. I love it."
 
-<hr>
+---
 
 *When it comes to organic food*, [Maria Hines](http://www.seattletimes.com/life/food-drink/for-chef-maria-hines-seattle-is-an-organic-choice/) is a pioneer in Pacific Northwest cuisine and a national standard-bearer. Almost a decade old, her Wallingford gem [Tilth](http://tilthrestaurant.com/home/) was only the second restaurant in the country to be certified organic. She won a James Beard award for it in 2009.
 
@@ -56,7 +56,7 @@ But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of c
 
 What we do have is better than that. "So many beautiful foraged ingredients. It's amazing what we have access to. I mean, we have the largest species of mushrooms of anywhere else in the world ... We're really close to our ag community ... we have so many farmers markets," she says, virtually aglow. If you worked with such marvelous stuff — with such deserved pride — you would be, too.
 
-<hr>
+---
 
 [*Blaine Wetzel's approach* to food](http://www.seattletimes.com/life/food-drink/at-willows-inn-a-book-of-sea-and-smoke/) involves a stringent adherence to local sourcing and a forager's devotion, but it comes to the Pacific Northwest by way of Denmark. While Wetzel grew up in Olympia, he landed at [The Willows Inn](http://www.willows-inn.com/) on middle-of-nowhere Lummi Island in 2010 only after cooking at Copenhagen's Noma — regarded by many as the best restaurant in the world. There, chef Rene Redzepi is credited with the revival and elevation of Nordic regional cuisine, eschewing nonnative foodstuffs and foraging like mad. Wetzel got his James Beard award for his local-haute work at The Willows Inn just this year.
 
@@ -68,7 +68,7 @@ He's "blown away" by those resources, especially the biodiverse ecosystem of Pug
 
 "It's better than anywhere I've ever heard of, or ever lived," he says, not without awe.
 
-<hr>
+---
 
 *In her boat* out on the Sound, just north of Seattle, [Renee Erickson hands me a can](http://www.seattletimes.com/life/food-drink/how-food-club-fed-a-crew-of-seattles-best-chefs/) of Rainier beer. Down below, Dungeness crabs make their way into the crab pots. The two-time James Beard award finalist — this year and the year before — is the chef/owner of [The Walrus and the Carpenter](http://www.thewalrusbar.com/) and other acclaimed Seattle restaurants. She remembers growing up in Woodinville when it still had a field of daffodils at its main intersection. She talks about picking blackberries, her mom's amazing pie, their garden of peas, beans, corn, carrots and strawberries. She's crabbed near here her whole life, at the family spot in Spee-Bi-Dah. Sometimes there, she says, a guy would beach his boat and blow his horn, then sell just-caught-and-steamed pink shrimp in paper bags, which they'd eat sitting on driftwood logs.
 
