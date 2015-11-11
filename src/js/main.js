@@ -44,6 +44,7 @@ ready(function(player) {
       var li = closest(e.target, "playlist-item");
       var id = li.getAttribute("data-id");
       var index = player.playlist.indexOf(lookup[id]);
+      window.location = "#player";
       player.playlist.currentItem(index);
       player.play();
     });
