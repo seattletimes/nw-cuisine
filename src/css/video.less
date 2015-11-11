@@ -10,6 +10,7 @@
   h2 {
     margin: 8px;
     font-size: 19px;
+    display: none;
   }
 
   hr {
@@ -25,6 +26,24 @@
     text-align: center;
     font-family: @df-sans;
     font-size: 16px;
+  }
+}
+
+.video-container.pending {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-family: @df-sans;
+    background: @df-dark-gray;
+    color: @df-off-white;
+    content: "VIDEO";
+    z-index: 999;
+    pointer-events: none;
   }
 }
 
@@ -61,8 +80,8 @@
     padding: 8px;
     clear: both;
     overflow: hidden;
-    font-size: 14px;
-    line-height: 1.2;
+    font-size: 15px;
+    line-height: 1.4;
 
     @media @tablet {
       width: 100% / 4;
@@ -111,6 +130,7 @@
 
     .caption {
       display: block;
+      padding-top: 8px;
     }
   }
 

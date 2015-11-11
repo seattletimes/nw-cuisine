@@ -28,30 +28,32 @@ module.exports = function(grunt) {
 
     files.forEach(function(filename) {
       var input = grunt.file.read(filename);
+      input = typo.smartypants(input);
+      input = input.replace(/&#8216;(\d+)/g, "&#8217;$1");
       var parsed = reader.parse(input);
 
-      var walker = parsed.walker();
-      //merge text nodes together
-      var e;
-      var previous;
-      while (e = walker.next()) {
-        var node = e.node;
-        //is this an adjacent text node?
-        if (node && previous && previous.parent == node.parent && previous.type == "Text" && node.type == "Text") {
-          previous.literal += node.literal;
-          // grunt.log.oklns(previous.literal);
-          node.unlink();
-        } else {
-          previous = node;
-        }
-      }
-      //second pass, run Typogr on the text
-      walker = parsed.walker();
-      while (e = walker.next()) {
-        if (e.node && e.node.type == "Text") {
-          e.node.literal = typo.smartypants(e.node.literal);
-        }
-      }
+      // var walker = parsed.walker();
+      // //merge text nodes together
+      // var e;
+      // var previous;
+      // while (e = walker.next()) {
+      //   var node = e.node;
+      //   //is this an adjacent text node?
+      //   if (node && previous && previous.parent == node.parent && previous.type == "Text" && node.type == "Text") {
+      //     previous.literal += node.literal;
+      //     // grunt.log.oklns(previous.literal);
+      //     node.unlink();
+      //   } else {
+      //     previous = node;
+      //   }
+      // }
+      // //second pass, run Typogr on the text
+      // walker = parsed.walker();
+      // while (e = walker.next()) {
+      //   if (e.node && e.node.type == "Text") {
+      //     e.node.literal = typo.smartypants(e.node.literal);
+      //   }
+      // }
 
       var output = writer.render(parsed);
       var sansExtension = path.basename(filename).replace(/\..*?$/, "");

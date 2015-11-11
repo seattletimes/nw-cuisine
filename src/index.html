@@ -8,10 +8,12 @@
     <%= t.include("partials/_head.html") %>
   </head>
   <body>
+   
+    <%= t.include("partials/_ad.html", { type: "banner" }) %>
 
-    <%= t.include("partials/_nav.html") %>
 
     <header class="splash">
+      <%= t.include("partials/_nav.html") %>
       <h1>
         <img src="./assets/PNWCuisineHeader.jpg" class="hexes" alt="What is Northwest cuisine?">
       </h1>
@@ -20,11 +22,10 @@
       </p>
     </header>
 
-    <% /*= t.include("partials/_ad.html", { type: "banner" })*/ %>
 
     <main class="cuisine-player">
       <h2>Video: Interviews with prominent Northwest chefs</h2>
-      <div class="video-container aspect-outer">
+      <div class="video-container aspect-outer pending">
         <div class="aspect-inner">
           <video
             data-account="1509317113"

@@ -6,16 +6,17 @@ require("./gallery");
 var ready = require("./brightcove");
 var dot = require("./lib/dot");
 var playlistTemplate = dot.compile(require("./_playlist.html"));
+var videoContainer = document.querySelector(".video-container");
 var playlistContainer = document.querySelector(".playlist-container");
 
 var ids = {
-  4594952965001: "Foraging with Jeremy Faber",
-  4558264932001: "Rachel Yang’s non-fusion fusion",
-  4567072591001: "Blaine Wetzel’s island pantry",
-  4556052811001: "Maria Hines mills grain",
-  4537656765001: "On the farm with Tom Douglas",
-  4518683229001: "Renee Erickson goes crabbing",
-  4605380252001: "Matt Dillion pigs out"
+  4594952965001: "Foraging with <b>Jeremy Faber</b>",
+  4558264932001: "<b>Rachel Yang’s</b> non-fusion fusion",
+  4567072591001: "<b>Blaine Wetzel’s</b> island pantry",
+  4556052811001: "<b>Maria Hines</b> mills grain",
+  4537656765001: "On the farm with <b>Tom Douglas</b>",
+  4518683229001: "<b>Renee Erickson</b> goes crabbing",
+  4605380252001: "<b>Matt Dillon</b> pigs out"
 };
 
 var playlistID = 4539370305001;
@@ -48,6 +49,7 @@ ready(function(player) {
     });
 
     var update = function(e) {
+      if (e.type == "play") videoContainer.classList.remove("pending");
       var active = document.querySelector("li.playlist-item.active");
       if (active) active.classList.remove("active");
       var playingAd = player.ads.state == "ad-playback";
