@@ -89,6 +89,10 @@ He's "blown away" by those resources, especially the biodiverse ecosystem of Pug
 
 ---
 
+<aside class="full-width gallery-container">
+  <%= t.include("_gallery.html") %>
+</aside>
+
 *In her boat* out on the Sound, just north of Seattle, [Renee Erickson hands me a can](http://www.seattletimes.com/life/food-drink/how-food-club-fed-a-crew-of-seattles-best-chefs/) of Rainier beer. Down below, Dungeness crabs make their way into the crab pots. The two-time James Beard award finalist — this year and the year before — is the chef/owner of [The Walrus and the Carpenter](http://www.thewalrusbar.com/) and other acclaimed Seattle restaurants. She remembers growing up in Woodinville when it still had a field of daffodils at its main intersection. She talks about picking blackberries, her mom's amazing pie, their garden of peas, beans, corn, carrots and strawberries. She's crabbed near here her whole life, at the family spot in Spee-Bi-Dah. Sometimes there, she says, a guy would beach his boat and blow his horn, then sell just-caught-and-steamed pink shrimp in paper bags, which they'd eat sitting on driftwood logs.
 
 Erickson talks about her life now, how happy it makes her that customers are learning to ask where fish comes from. She knows her oyster farmers on a first-name basis; she met her husband-to-be at a farmers market, where he was working for the [Hama Hama Company](http://www.hamahamaoysters.com/).

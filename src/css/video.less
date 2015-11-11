@@ -12,7 +12,7 @@
     font-size: 19px;
     display: none;
 
-    @media @mobile {
+    @media @tablet {
       display: block;
     }
   }
@@ -62,11 +62,16 @@
   li.playlist-item {
     display: inline-block;
     vertical-align: text-top;
-    width: 120px;
+    width: 100% / 7;
     padding: 8px;
     clear: both;
     overflow: hidden;
     font-size: 14px;
+    line-height: 1.2;
+
+    @media @tablet {
+      width: 100% / 4;
+    }
 
     @media @mobile {
       width: 50%;

@@ -1,0 +1,13 @@
+<h2>Gallery: Northwest cuisine in pictures</h2>
+<div class="gallery">
+  <% grunt.data.csv.nwcuisine.forEach(function(row) { %>
+  <a href="./assets/gallery/<%= row.filename %>.jpg" class="gallery-item" title="<%= row.caption %>">
+      <img src="./assets/thumbs/<%= row.filename %>.jpg" class="thumb">
+  </a>
+  <% }) %>
+</div>
+<div class="gallery-overlay">
+  <img>
+  <cite class="credit">JOHN LOK / THE SEATTLE TIMES</cite>
+  <div class="caption"></div>
+</div>

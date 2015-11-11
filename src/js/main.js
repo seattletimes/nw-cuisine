@@ -2,7 +2,7 @@ require("./lib/social");
 require("./lib/ads");
 var track = require("./lib/tracking");
 
-require("component-responsive-frame/child");
+require("./gallery");
 var ready = require("./brightcove");
 var dot = require("./lib/dot");
 var playlistTemplate = dot.compile(require("./_playlist.html"));
@@ -15,7 +15,7 @@ var ids = {
   4556052811001: "Maria Hines mills grain",
   4537656765001: "On the farm with Tom Douglas",
   4518683229001: "Renee Erickson goes crabbing",
-  tba: "Matt Dillion pigs out"
+  4605380252001: "Matt Dillion pigs out"
 };
 
 var playlistID = 4539370305001;
@@ -31,7 +31,6 @@ ready(function(player) {
   window.player = player;
 
   player.catalog.getPlaylist(playlistID, function(err, playlist) {
-    console.log(playlist);
     playlist.forEach(p => p.caption = ids[p.id]);
     playlistContainer.innerHTML = playlistTemplate(playlist);
     player.catalog.load(playlist);
@@ -67,5 +66,3 @@ ready(function(player) {
 
   });
 });
-
-
