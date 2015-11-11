@@ -43,6 +43,8 @@ Out here, right now, the idea of Pacific Northwest cuisine does not seem like an
 Bethany Jean Clement is The Seattle Times’ food writer. Reach her at 206-464-2050 or [bclement@seattletimes.com](mailto:bclement@seattletimes.com). On Twitter [@BJeanClement](http://twitter.com/bjeanclement). John Lok is a Times staff photographer.
 
 
+
+
 [It can have links in it.](http://seattletimes.com)
 
 <aside class="image">
