@@ -1,12 +1,3 @@
-<aside class="inset related">
-  <p>
-    Read more about the chefs featured in this series:
-  </p>
-  <ul>
-    <%= t.include("_chef-sidebar.html") %>
-  </ul>
-</aside>
-
 *At his old chaser farm* on Vashon Island, Matt Dillon reaches over a wire fence to scratch one of his pigs on the head. "If I fell down in there, he'd eat me," Dillon says affectionately.
 
 Renee Erickson bangs her little Boston Whaler into the back of a sailboat while maneuvering out of her slip at Shilshole Bay Marina. She curses lightly. Two crab pots baited with sockeye salmon heads, the flesh brilliantly crimson, await her attention.
@@ -16,6 +7,15 @@ Among the moss-muffled firs near Hood Canal, Jeremy Faber sets out in search of 
 Maria Hines pours organic wheat harvested from golden fields on the Olympic Peninsula into a noisy mill in a kitchen in Fremont, a dust of fine flour particles coating the room.
 
 On lush Lummi Island, Blaine Wetzel walks down a wooded path to Sunset Beach, where he'll gather succulents growing among the piled driftwood and stones.
+
+<aside class="inset related">
+  <p>
+    Read more about the chefs featured in this series:
+  </p>
+  <ul>
+    <%= t.include("_chef-sidebar.html") %>
+  </ul>
+</aside>
 
 The foods our chefs have to work with are unparalleled. A live Dungeness crab, dropped into boiling water with a whispered apology, has sweeter, more tender meat than any soft-shell crab, any lobster. Spot prawns put other shrimp to shame, they taste so fresh and floral. A plate of our oysters on the half-shell on a dark winter's night: Each one rings like a bell. Geoduck is coveted worldwide for its barely briny bounce; razor clams are our own secret prize. Salmon, barely seared or smoked or cured, is our king. Out in the forest, nettles are the enemy of the epidermis, friend of the stomach; the mushrooms are magic — morels, porcini, chanterelles — just there for the taking. Wild native trailing blackberries await, smaller, sweeter and less seedy than the fat, glossy Himalayan ones that sprawl along freeway onramps. Asparagus comes as a springtime gift from east of the mountains. Summer brings ridiculously drippy peaches. The world's most back-to-school smell is Washington apple juice pouring from a wooden press.
 
