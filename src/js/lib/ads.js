@@ -5,11 +5,16 @@
     1: [[300, 50]]
   };
 
+  var rightMapping = { 
+    768: [[300, 600], [300,250]],
+    1: [[300, 250]]
+  };
+
   tag.seatimes.presets = {
     banner: { sizes: [[728,90]], sizeMapping: bannerMapping, position: "top" },
     square: { sizes: [[300, 250]], position: "right1" },
     tall: { sizes: [[300, 600]], position: "right" },
-    right: { sizes: [[300, 600], [300, 250]], position: "right" },
+    right: { sizes: [[300, 600], [300, 250]], position: "right", sizeMapping: rightMapping },
     bannerBottom: { sizes: [[728,90]], sizeMapping: bannerMapping, position: "bottom" },
     interstitial: { sizes: [[1,1]], position: "inter" }
   };
