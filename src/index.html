@@ -10,43 +10,40 @@
   <body>
    
     <%= t.include("partials/_ad.html", { type: "banner" }) %>
-
+    <%= t.include("partials/_nav.html") %>
 
     <header class="splash">
-      <%= t.include("partials/_nav.html") %>
-      <h1>
-        <img src="./assets/PNWCuisineHeader.jpg" class="hexes" alt="What is Northwest cuisine?">
-      </h1>
-      <p class="deck">
-        <b>What is Northwest cuisine?</b> Seattle Times food columnist Bethany Jean Clement explores the backstory of the people and landscapes that define the way we eat now.
+      
+      <h1>What is Northwest cuisine?</h1>
+      <p class="chatter">
+        Seattle Times food columnist Bethany Jean Clement explores the backstory of the people and landscapes that define the way we eat now.
       </p>
+
+      <div class="cuisine-player">
+        <div class="video-container aspect-outer pending">
+          <div class="aspect-inner">
+            <video
+              data-account="1509317113"
+              data-player="default"
+              data-embed="default"
+              id="player"
+              class="video-js" controls>
+            </video>
+          </div>
+        </div>
+        <hr>
+        <div class="playlist-container"></div>
+      </div>
     </header>
 
-
-    <main class="cuisine-player">
-      <h2>Video: Interviews with prominent Northwest chefs</h2>
-      <div class="video-container aspect-outer pending">
-        <div class="aspect-inner">
-          <video
-            data-account="1509317113"
-            data-player="default"
-            data-embed="default"
-            id="player"
-            class="video-js" controls>
-          </video>
-        </div>
-      </div>
-      <p class="chatter">
-      </p>
-      <hr>
-      <div class="playlist-container"></div>
-    </main>
-
     <article class="article-text">
+      <cite class="byline">
+        By Bethany Jean Clement, John Lok, and Corinne Chin
+      </cite>
       <%= markdown.article %>
     </article>
 
-    <footer class="byline">
+    <footer class="authors">
 
       <div class="content">
         Bethany Jean Clement is The Seattle Times' food writer. Reach her at 206-464-2050 or <a href="mailto:bclement@seattletimes.com">bclement@seattletimes.com</a>. On Twitter <a href="http://twitter.com/bjeanclement">@BJeanClement</a>. John Lok is a Times staff photographer.

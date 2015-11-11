@@ -35,6 +35,37 @@
     width: 50%;
   }
 
+  .image {
+    .caption {
+      font-size: 14px;
+      font-family: @df-sans;
+      color: @df-middle-gray;
+      margin-top: 2px;
+      max-width: 100%;
+    }
+
+    &.wide {
+      max-width: 800px;
+    }
+
+    &.right {
+      float: right;
+      max-width: 300px;
+      margin-left: 24px;
+
+      @media @mobile {
+        max-width: 100%;
+        margin: 0;
+      }
+    }
+
+      &.left {
+      float: left;
+      max-width: 500px;
+      margin: 10px;
+    }
+  }
+
   .related.inset {
     background: linear-gradient(to top, white, #f8f8f8);
     padding: 16px;

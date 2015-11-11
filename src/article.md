@@ -36,7 +36,10 @@ If you're a newcomer here and you love food, you've been startled by what our ch
 
 It's not just farm-to-table, forest-to-table or boat-to-table here. What you find in front of you at Seattle's best restaurants tastes so very, very good because it's life-to-life: from the lives of these chefs, and the lives of their hardworking suppliers, to yours. This is the cuisine of the Pacific Northwest: ineffable yet specific to this place, both influenced by and influencing those who are lured here by its plenty — or who've been fortunate enough to be here all along.
 
----
+<!-- no need for hr when gallery is full width -->
+<aside class="full-width gallery-container">
+  <%= t.include("_gallery.html") %>
+</aside>
 
 <aside class="inset ad-float">
   <%= t.include("partials/_ad.html", { type: "right" }) %>
@@ -67,8 +70,6 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 
 "It's way bigger than me, and way bigger than restaurants — it's about culture," he says. "You know, when we look and we romanticize about places like France and Italy and Japan, those ... have been eating that way for a long time. And the restaurants interpret that cuisine ... It's about people."
 
----
-
 <aside class="image right">
   <img src="assets/gallery/PAC_DININGOUT_PROMOPOSTER_LOK4.jpg">
   <p class="caption">Rachel Yang, co-owner/chef of Joule, Revel and Trove. (John Lok / The Seattle Times)</p>
@@ -81,8 +82,6 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 "If we talk about, ‘What is Northwest food in 2015?' it's like the same thing as asking, ‘What is American food in 2015?' " says Yang. "You cannot define American food as just one kind." Thinking about it in terms of ingredients doesn't make it much easier for her: "If I get a bok choy that's grown locally from a farmer, and I use it, I don't know if that qualifies me to say — is bok choy a Northwest food now?"
 
 But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of course, local; risotto is Italian in origin; in this case, the rice is cooked in the Japanese seaweed broth dashi. "It has this nice brininess of the sea," she says. "At the same time, you get this barely cooked, raw geoduck ... It's good. I love it."
-
----
 
 <aside class="image wide">
   <img src="assets/gallery/HinesSiftLOK.jpg">
@@ -99,17 +98,10 @@ But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of c
 
 What we do have is better than that. "So many beautiful foraged ingredients. It's amazing what we have access to. I mean, we have the largest species of mushrooms of anywhere else in the world ... We're really close to our ag community ... we have so many farmers markets," she says, virtually aglow. If you worked with such marvelous stuff — with such deserved pride — you would be, too.
 
----
-
 <aside class="image wide">
   <img src="assets/gallery/WetzelProduceLOK.jpg">
   <p class="caption">Blaine Wetzel, the chef of The Willows Inn, picks mirabelle plums on Lummi Island. (John Lok / The Seattle Times)</p>
 </aside>  
-
-<aside class="image right">
-  <img src="assets/gallery/WetzelBerryLOK.jpg">
-  <p class="caption">A dish of wild huckleberries in a broth of fresh herbs and grasses, with parsley oil and wood sorrel leaves made by Blaine Wetzel of The Willows Inn. (John Lok / The Seattle Times)</p>
-</aside> 
 
 [*Blaine Wetzel's approach* to food](http://www.seattletimes.com/life/food-drink/at-willows-inn-a-book-of-sea-and-smoke/) involves a stringent adherence to local sourcing and a forager's devotion, but it comes to the Pacific Northwest by way of Denmark. While Wetzel grew up in Olympia, he landed at [The Willows Inn](http://www.willows-inn.com/) on middle-of-nowhere Lummi Island in 2010 only after cooking at Copenhagen's Noma — regarded by many as the best restaurant in the world. There, chef Rene Redzepi is credited with the revival and elevation of Nordic regional cuisine, eschewing nonnative foodstuffs and foraging like mad. Wetzel got his James Beard award for his local-haute work at The Willows Inn just this year.
 
@@ -121,10 +113,10 @@ He's "blown away" by those resources, especially the biodiverse ecosystem of Pug
 
 "It's better than anywhere I've ever heard of, or ever lived," he says, not without awe.
 
-<!-- no need for hr when gallery is full width -->
-<aside class="full-width gallery-container">
-  <%= t.include("_gallery.html") %>
-</aside>
+<aside class="image wide">
+  <img src="assets/gallery/ReneePortraitLOK-001.jpg">
+  <p class="caption">Restaurateur Renee Erickson on a crabbing outing on her Boston Whaler. (John Lok / The Seattle Times)</p>
+</aside>  
 
 *In her boat* out on the Sound, just north of Seattle, [Renee Erickson hands me a can](http://www.seattletimes.com/life/food-drink/how-food-club-fed-a-crew-of-seattles-best-chefs/) of Rainier beer. Down below, Dungeness crabs make their way into the crab pots. The two-time James Beard award finalist — this year and the year before — is the chef/owner of [The Walrus and the Carpenter](http://www.thewalrusbar.com/) and other acclaimed Seattle restaurants. She remembers growing up in Woodinville when it still had a field of daffodils at its main intersection. She talks about picking blackberries, her mom's amazing pie, their garden of peas, beans, corn, carrots and strawberries. She's crabbed near here her whole life, at the family spot in Spee-Bi-Dah. Sometimes there, she says, a guy would beach his boat and blow his horn, then sell just-caught-and-steamed pink shrimp in paper bags, which they'd eat sitting on driftwood logs.
 
