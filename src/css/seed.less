@@ -4,3 +4,27 @@
 @import "video";
 @import "article";
 @import "gallery";
+
+.image {
+  .caption {
+    font-size: 16px;
+    color: grey;
+    margin-top: 2px;
+  }
+
+  &.wide {
+    max-width: 800px;
+  }
+
+  &.right {
+    float: right;
+    max-width: 400px;
+    margin: 10px;
+  }
+
+    &.left {
+    float: left;
+    max-width: 500px;
+    margin: 10px;
+  }
+}

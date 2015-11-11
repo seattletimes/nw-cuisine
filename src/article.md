@@ -19,6 +19,17 @@ On lush Lummi Island, Blaine Wetzel walks down a wooded path to Sunset Beach, wh
 
 The foods our chefs have to work with are unparalleled. A live Dungeness crab, dropped into boiling water with a whispered apology, has sweeter, more tender meat than any soft-shell crab, any lobster. Spot prawns put other shrimp to shame, they taste so fresh and floral. A plate of our oysters on the half-shell on a dark winter's night: Each one rings like a bell. Geoduck is coveted worldwide for its barely briny bounce; razor clams are our own secret prize. Salmon, barely seared or smoked or cured, is our king. Out in the forest, nettles are the enemy of the epidermis, friend of the stomach; the mushrooms are magic — morels, porcini, chanterelles — just there for the taking. Wild native trailing blackberries await, smaller, sweeter and less seedy than the fat, glossy Himalayan ones that sprawl along freeway onramps. Asparagus comes as a springtime gift from east of the mountains. Summer brings ridiculously drippy peaches. The world's most back-to-school smell is Washington apple juice pouring from a wooden press.
 
+<aside class="image wide">
+  <img src="assets/gallery/DouglasHoeLOK.jpg">
+  <p class="caption">Tom Douglas and his wife, Jackie Cross, gather produce at Prosser Farm. (John Lok / The Seattle Times)</p>
+</aside>  
+
+<aside class="image right">
+  <img src="assets/gallery/PAC_DININGOUT_PROMOPOSTER_LOK2.jpg">
+  <p class="caption">Alaskan weather-vane scallop with Prosser Farm cucumber and melon at Tom Douglas’ Dahlia Lounge. (John Lok / The Seattle Times)</p>
+</aside>  
+
+
 "Farm-to-table" has been repeated into preciousness, headlining news releases and printed in faux-letterpress type onto countless menus across the land. But for Seattle's award-winning chefs, the farm is neither gimmick nor abstraction. Even [local mogul Tom Douglas](http://www.seattletimes.com/life/food-drink/out-on-the-farm-with-tom-douglas-and-jackie-cross/), with a dozen-plus restaurants and counting, has Prosser Farm: Three hours southeast of the city, it's helmed with joy and frustration and sweat by his wife, Jackie Cross, who actually wears overalls. Likewise, fishing and foraging in the Pacific Northwest aren't lifestyle choices, but part of lives, learned early and held dear.
 
 If you're a newcomer here and you love food, you've been startled by what our chefs have fed you — by its aching freshness, by its reverent treatment, by its pure goodness. At its best, isn't this better eating than anywhere in the world? If you've been here all along, hearing the stories and eating the food, with increasing elation — watching things grow — you have the answer to that question, and it's a quiet but certain one.
@@ -45,6 +56,11 @@ He would become part of the answer to that question. When he precipitously becam
 
 Traunfeld became the chef of [The Herbfarm](http://www.theherbfarm.com/), which during his tenure became the premier dining experience in the Northwest. When it comes to our regional cuisine, Traunfeld says, "If any restaurant defines it, it's The Herbfarm ... We would use things like lemons and chocolate, but other than that, we were very strict about trying to be as local as possible."
 
+<aside class="image wide">
+  <img src="assets/gallery/DillonChickenLOK.jpg">
+  <p class="caption">Matt Dillon holds one of his Freedom Ranger chickens at Old Chaser Farm on Vashon Island. (John Lok / The Seattle Times)</p>
+</aside> 
+
 In the early '90s, Matt Dillon got his hands on one of Traunfeld's menus from The Herbfarm, the thematically dedicated "A Menu for a Copper King." It listed, Dillon says, "things like Douglas fir, ingredients that you didn't see very often. I immediately thought to myself, ‘Wow, I want to work there.' " Eventually, he did, and he credits both Traunfeld and Herbfarm owner Ron Zimmerman with showing him what "the landscape looked like through someone's eyes who was truly hungry, in Washington — like, what can I make to fill myself here, and also be artistically truly creative?" He now calls it "eyes-wide-open stuff" — his first experience in "what you would try to define as Pacific Northwest cuisine."
 
 Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaandspruce.com/) in 2006 in a strip mall, then moved it to a larger location and opened several more restaurants. On his Vashon farm, he grows vegetables, berries and fruit; raises poultry, sheep and pigs; and cultivates oysters along the nearby shore. While his restaurants are emblematic of the Pacific Northwest's local and seasonal best — and he garnered the 2012 James Beard award for Best Chef Northwest — he is hesitant about defining our cuisine. It can't, he says, be just "fancy white people eating fancy food in expensive restaurants."
@@ -52,6 +68,11 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 "It's way bigger than me, and way bigger than restaurants — it's about culture," he says. "You know, when we look and we romanticize about places like France and Italy and Japan, those ... have been eating that way for a long time. And the restaurants interpret that cuisine ... It's about people."
 
 ---
+
+<aside class="image right">
+  <img src="assets/gallery/PAC_DININGOUT_PROMOPOSTER_LOK4.jpg">
+  <p class="caption">Rachel Yang, co-owner/chef of Joule, Revel and Trove. (John Lok / The Seattle Times)</p>
+</aside> 
 
 *The longtime asian influence* on Pacific Northwest cuisine, meanwhile, has been deepening and widening. Traunfeld's new restaurant, [Lionhead](http://www.lionheadseattle.com/), is Sichuanese. [Stateside](http://www.statesideseattle.com/), an upscale Vietnamese restaurant from chef Eric Johnson, began accruing accolades as soon as it opened in April. Eric and Sophie Banh, owners of longtime favorite [Monsoon](http://www.monsoonrestaurants.com/seattle/), just debuted a steakhouse, [Seven Beef](http://www.sevenbeef.com/). [Girin](http://www.girinseattle.com/), new in Pioneer Square, is another standout, billing itself as "a modern expression of classical Korean cuisine."
 
@@ -62,6 +83,11 @@ Dillon opened the tiny, DIY first edition of [Sitka & Spruce](http://www.sitkaan
 But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of course, local; risotto is Italian in origin; in this case, the rice is cooked in the Japanese seaweed broth dashi. "It has this nice brininess of the sea," she says. "At the same time, you get this barely cooked, raw geoduck ... It's good. I love it."
 
 ---
+
+<aside class="image wide">
+  <img src="assets/gallery/HinesSiftLOK.jpg">
+  <p class="caption">Maria Hines sifts freshly ground local, organic flour at her restaurant Agrodolce. (John Lok / The Seattle Times)</p>
+</aside> 
 
 <aside class="inset ad-float">
   <%= t.include("partials/_ad.html", { type: "square" }) %>
@@ -74,6 +100,16 @@ But a dish like her geoduck risotto at Joule is clarifying. The geoduck is, of c
 What we do have is better than that. "So many beautiful foraged ingredients. It's amazing what we have access to. I mean, we have the largest species of mushrooms of anywhere else in the world ... We're really close to our ag community ... we have so many farmers markets," she says, virtually aglow. If you worked with such marvelous stuff — with such deserved pride — you would be, too.
 
 ---
+
+<aside class="image wide">
+  <img src="assets/gallery/WetzelProduceLOK.jpg">
+  <p class="caption">Blaine Wetzel, the chef of The Willows Inn, picks mirabelle plums on Lummi Island. (John Lok / The Seattle Times)</p>
+</aside>  
+
+<aside class="image right">
+  <img src="assets/gallery/WetzelBerryLOK.jpg">
+  <p class="caption">A dish of wild huckleberries in a broth of fresh herbs and grasses, with parsley oil and wood sorrel leaves made by Blaine Wetzel of The Willows Inn. (John Lok / The Seattle Times)</p>
+</aside> 
 
 [*Blaine Wetzel's approach* to food](http://www.seattletimes.com/life/food-drink/at-willows-inn-a-book-of-sea-and-smoke/) involves a stringent adherence to local sourcing and a forager's devotion, but it comes to the Pacific Northwest by way of Denmark. While Wetzel grew up in Olympia, he landed at [The Willows Inn](http://www.willows-inn.com/) on middle-of-nowhere Lummi Island in 2010 only after cooking at Copenhagen's Noma — regarded by many as the best restaurant in the world. There, chef Rene Redzepi is credited with the revival and elevation of Nordic regional cuisine, eschewing nonnative foodstuffs and foraging like mad. Wetzel got his James Beard award for his local-haute work at The Willows Inn just this year.
 
@@ -99,6 +135,11 @@ She mildly trash-talks our neighbor to the south. "Selfishly, just to gloat, I f
 If we didn't live in Seattle, we'd have to move here, we agree.
 
 "I feel super lucky being here," she says.
+
+<aside class="image right">
+  <img src="assets/gallery/ReneeRejectsLOK.jpg">
+  <p class="caption">Renee Erickson returns undersized crabs to the Sound. (John Lok / The Seattle Times)</p>
+</aside>
 
 The sun breaks through the clouds. Every so often, a coho salmon jumps, silvery-skinned, flinging itself into the air like it's happy to be alive. "I love it!" Erickson says. It's already so pretty that it's almost comical, then porpoises start making intermittent appearances in the near distance.
 
