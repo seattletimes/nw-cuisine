@@ -29,14 +29,11 @@ overlay.addEventListener("click", function() {
 
 var buttons = overlay.querySelectorAll("button");
 
-var onButton = function(e) {
-  e.preventDefault();
-  e.stopPropagation();
+var increment = function(back) {
   //find current
   var src = image.src.split("/").pop();
   var thumb = document.querySelector(`.gallery-item[href*="${src}"]`);
   var go;
-  var back = this.classList.contains("previous");
   if (back) {
     go = thumb.previousElementSibling;
   } else {
@@ -47,8 +44,38 @@ var onButton = function(e) {
     go = back ? items[items.length - 1] : items[0];
   }
   overlay.classList.remove("fade-content");
-  var reflow = overlay.offsetWidth;
+  // var reflow = overlay.offsetWidth;
   onClick.call(go);
 }
 
+var onButton = function(e) {
+  e.preventDefault();
+  e.stopPropagation();
+  increment(this.classList.contains("previous"));
+}
+
 for (var i = 0; i < buttons.length; i++) buttons[i].addEventListener("click", onButton);
+
+window.addEventListener("keydown", function(e) {
+  if (!overlay.classList.contains("show")) return;
+  e.preventDefault();
+  e.stopImmediatePropagation();
+  switch (e.keyCode) {
+    //leave
+    case 27: //esc
+      overlay.className = "gallery-overlay";
+    break;
+
+    case 13: //enter
+    case 39: //right
+    case 40: //down
+    case 32: //space
+      increment();
+    break;
+
+    case 37: //up
+    case 38: //left
+      increment(true);
+    break;
+  }
+});

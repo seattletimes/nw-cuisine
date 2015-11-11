@@ -1,7 +1,9 @@
 <ul class="playlist">
 <% data.forEach(function(item) { %>
   <li class="playlist-item" data-id="<%= item.id %>">
-    <img src="<%= item.thumbnail %>">
+    <div class="image-frame">
+      <img src="<%= item.thumbnail %>">
+    </div>
     <span class="caption"><%= item.caption %></span>
 <% }); %>
 </ul>

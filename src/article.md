@@ -27,8 +27,6 @@ It's not just farm-to-table, forest-to-table or boat-to-table here. What you fin
 
 ---
 
-
-
 <aside class="inset ad-float">
   <%= t.include("partials/_ad.html", { type: "right" }) %>
 </aside>
@@ -87,8 +85,7 @@ He's "blown away" by those resources, especially the biodiverse ecosystem of Pug
 
 "It's better than anywhere I've ever heard of, or ever lived," he says, not without awe.
 
----
-
+<!-- no need for hr when gallery is full width -->
 <aside class="full-width gallery-container">
   <%= t.include("_gallery.html") %>
 </aside>

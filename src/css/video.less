@@ -8,13 +8,8 @@
   // border-bottom: 1px solid @df-light-gray;
 
   h2 {
-    margin: 0;
+    margin: 8px;
     font-size: 19px;
-    display: none;
-
-    @media @tablet {
-      display: block;
-    }
   }
 
   hr {
@@ -89,6 +84,24 @@
         color: @df-off-white;
       }
 
+    }
+
+    .image-frame {
+      position: relative;
+      background: black;
+
+      &::after {
+        content: "▶";
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 12px;
+        left: 0;
+        font-size: 40px;
+        line-height: 1;
+        color: white;
+        text-shadow: 0 0 10px black;
+      }
     }
 
     img {
