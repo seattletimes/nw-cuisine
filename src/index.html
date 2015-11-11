@@ -51,6 +51,26 @@
 
     </footer>
 
+    <%= t.include("partials/_dontMiss.html", {
+      data: [{
+        link: "http://www.seattletimes.com/life/food-drink/a-very-northwest-holiday-recipes-for-your-thanksgiving-feast/",
+        image: "./tease/holiday-meals.jpg",
+        head: "Holiday recipes with Northwest ingredients"
+      }, {
+        link: "http://www.seattletimes.com/pacific-nw-magazine/the-seattle-times-top-10-new-restaurants/",
+        image: "./tease/top-restaurants.jpg",
+        head: "Top 10 new restaurants"
+      }, {
+        link: "http://www.seattletimes.com/pacific-nw-magazine/heres-how-to-eat-healthy-during-the-holidays/",
+        image: "./tease/healthy-eating.jpg",
+        head: "How to eat healthy during the holidays"
+      }, {
+        link: "http://seattletimes.com",
+        image: "",
+        head: "this space intentionally left blank."
+      }]
+    }) %>
+
     <%= t.include("partials/_navBottom.html") %>
 
     <script src="app.js" async></script>
