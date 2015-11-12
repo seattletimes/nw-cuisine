@@ -10,13 +10,13 @@ var videoContainer = document.querySelector(".video-container");
 var playlistContainer = document.querySelector(".playlist-container");
 
 var ids = {
-  4594952965001: "<b>Foraging with Jeremy Faber</b>",
-  4558264932001: "<b>Rachel Yang’s non-fusion fusion</b>",
-  4567072591001: "<b>Blaine Wetzel’s island pantry</b>",
-  4556052811001: "<b>Maria Hines mills grain</b>",
-  4537656765001: "<b>On the farm with Tom Douglas</b>",
-  4518683229001: "<b>Renee Erickson goes crabbing</b>",
-  4605380252001: "<b>Matt Dillon pigs out</b>"
+  4594952965001: "Foraging with Jeremy Faber",
+  4558264932001: "Rachel Yang’s non-fusion fusion",
+  4567072591001: "Blaine Wetzel’s island pantry",
+  4556052811001: "Maria Hines mills grain",
+  4537656765001: "On the farm with Tom Douglas",
+  4518683229001: "Renee Erickson goes crabbing",
+  4605380252001: "Matt Dillon pigs out"
 };
 
 var playlistID = 4539370305001;
