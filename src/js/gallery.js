@@ -2,7 +2,7 @@ var links = document.querySelectorAll(".gallery-item");
 
 var overlay = document.querySelector(".gallery-overlay");
 var image = overlay.querySelector("img");
-var caption = overlay.querySelector(".caption");
+var caption = overlay.querySelector(".caption .text");
 
 var onClick = function(e) {
   if (e) e.preventDefault();
