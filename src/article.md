@@ -10,7 +10,7 @@ On lush Lummi Island, Blaine Wetzel walks down a wooded path to Sunset Beach, wh
 
 <aside class="inset related">
   <p class="read-more">
-    Read more about the chefs featured in this series
+    Read more about the chefs in this series
   </p>
   <ul>
     <%= t.include("_chef-sidebar.html") %>
