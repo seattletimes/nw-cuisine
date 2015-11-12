@@ -5,16 +5,16 @@
       "path": "proficient-ambrosia"
     },
     "live": {
-      "bucket": "",
-      "path": ""
+      "bucket": "projects.seattletimes.com",
+      "path": "2015/what-is-pacific-northwest-cuisine"
     }
   },
-  "title": "What is Northwest cuisine?",
-  "description": "What is Northwest cuisine? Seattle Times food columnist Bethany Jean Clement explores the backstory of the people and landscapes that define the way we eat now.",
-  "url": "",
+  "title": "What is Pacific Northwest cuisine?",
+  "description": "How the region’s chefs use creativity, imagination and the bounty of local ingredients to define the way we eat now. ",
+  "url": "http://projects.seattletimes.com/2015/what-is-pacific-northwest-cuisine/",
   "slug": "",
   "tags": [],
-  "image": "assets/social.jpg",
-  "production": false,
+  "image": "assets/gallery/ReneePortraitLOK-001.jpg",
+  "production": true,
   "embedded": false
 }
