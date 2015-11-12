@@ -9,8 +9,8 @@ Maria Hines pours organic wheat harvested from golden fields on the Olympic Peni
 On lush Lummi Island, Blaine Wetzel walks down a wooded path to Sunset Beach, where he'll gather succulents growing among the piled driftwood and stones.
 
 <aside class="inset related">
-  <p>
-    Read more about the chefs featured in this series:
+  <p class="read-more">
+    Read more about the chefs featured in this series
   </p>
   <ul>
     <%= t.include("_chef-sidebar.html") %>

@@ -67,17 +67,26 @@
   }
 
   .related.inset {
-    background: linear-gradient(to top, white, #f8f8f8);
-    padding: 16px;
+    padding: 0 16px;
     font-family: @df-sans;
-    font-size: 14px;
-    text-align: center;
+    font-size: 16px;
+    text-align: left;
     max-width: 200px;
 
     @media @mobile {
       width: 100%;
       max-width: 100%;
-      background: @df-light-gray;
+    }
+
+    .read-more {
+      font-weight: bold;
+      border-bottom: 4px solid black;
+      margin-bottom: 0;
+      font-size: 18px;
+
+      @media @mobile {
+        margin-bottom: 8px;
+      }
     }
 
     ul {
@@ -88,9 +97,16 @@
 
     li {
       padding: 8px 0;
+      font-family: @df-serif;
+      border-bottom: 1px solid @df-light-gray;
+
+      a {
+        color: black;
+      }
 
       @media @mobile {
         display: inline;
+        border-bottom: none;
 
         &:not(:first-child)::before {
           content: " • "
