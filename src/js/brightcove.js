@@ -1,7 +1,7 @@
 var callbacks = [];
 var player;
 
-var src="//players.brightcove.net/1509317113/default_default/index.min.js";
+var src="//cdn.jwplayer.com/players/${id}-mRGp7S2O.js";
 var script = document.createElement("script");
 script.src = src;
 script.onload = function() {
